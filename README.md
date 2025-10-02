@@ -1,6 +1,6 @@
 # Hi, I’m Emilio! 👋
 
-I’m an Engineer and CTO living in Barcelona 🇪🇸 — I love creating solutions that make a real difference for people. Some things that make me excited are software architecture, crafting excellent APIs, and JavaScript frameworks 👍
+I’m an Engineer and CTO living in Barcelona 🇪🇸 — I love creating solutions that make a real difference for people. Some things that make me excited are software architecture, travelling and everything related to nature. Also I'm a new dad! So life is quite an adventure right now 👶
 
 Building strong relationships and collaborating with diverse teams truly excites me.
 
