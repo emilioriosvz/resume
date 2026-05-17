@@ -1,0 +1,142 @@
+%-------------------------
+% Resume in Latex
+% Author : Emilio
+% Based off of: https://github.com/emilioriosvz/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.55in}
+\addtolength{\evensidemargin}{-0.55in}
+\addtolength{\textwidth}{1.1in}
+\addtolength{\topmargin}{-.62in}
+\addtolength{\textheight}{1.22in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-2pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-1pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Emilio Rios} \\ \vspace{1pt}
+    \href{mailto:emilioriosvz@gmail.com}{\underline{emilioriosvz@gmail.com}} $|$
+    \href{https://linkedin.com/in/emrios}{\underline{linkedin.com/in/emrios}} $|$
+    \href{https://github.com/emilioriosvz}{\underline{github.com/emilioriosvz}}
+\end{center}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Chief Technology Officer}{Jun 2023 -- Present}
+      {Storimake}{Madrid, Spain (Remote)}
+      \resumeItemListStart
+        \resumeItem{Architected and shipped production AI agents using AWS Bedrock with LangChain orchestration, exposing internal capabilities through a custom MCP server with typed tool layers and Zod-validated contracts; the first agent served nearly 300 users in its first 3 days, replacing 15--20 minutes of manual handling per case.}
+        \resumeItem{Lead engineering and drive product direction across the organization, balancing hands-on architecture with people management, hiring, 1:1s, growth coaching, and cross-functional alignment with Design, Operations, and Leadership.}
+        \resumeItem{Led the migration from a mobile app to a web-based platform based on market research, redesigning services to ensure scalability and performance, reducing response times by up to 40\% and cutting feature delivery times from months to days.}
+        \resumeItem{Implemented a continuous deployment pipeline, taking the team from 2 releases per month to 10+ production deploys per week (a 20x increase), enabling tight feedback loops between engineering and customer-facing teams.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Principal Backend Engineer (part-time)}{Feb 2024 -- Jan 2025}
+      {Dott}{Chicago, US (Remote)}
+      \resumeItemListStart
+        \resumeItem{Led the design and implementation of scalable backend systems for an early-stage US startup, ensuring the platform was ready to absorb growth as user acquisition ramped.}
+        \resumeItem{Designed an asynchronous AI pipeline on AWS that analyzed user-uploaded images and videos to detect their content, built to power an automatic video generation product and later feed context-aware cinematic video workflows.}
+        \resumeItem{Developed and led R\&D for automated video tools, enabling users and companies to convert pictures into cinematic stories through backend-driven workflows.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Co-Founder}{Jan 2021 -- Aug 2023}
+      {The Crafters Lab}{Barcelona, Spain (Remote)}
+      \resumeItemListStart
+        \resumeItem{Spearheaded business and technical strategy, driving digital transformation for businesses through end-to-end software solutions.}
+        \resumeItem{Drove company growth by securing 5 clients in the first year, including 2 long-term collaborations and projects with Wefox, FlaixFM, and other leading agencies in Spain.}
+        \resumeItem{Managed business and technical operations, aligning technology with client goals and generating $\sim$\texteuro380k in cash flow during the first year with a team of 4.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Senior Software Engineer}{Mar 2020 -- Dec 2021}
+      {Wefox}{Berlin, Germany (Remote)}
+      \resumeItemListStart
+        \resumeItem{Developed an API that reduced the time-to-market for new insurance products from 6 months to 2 weeks, accelerating product launches and improving operational efficiency.}
+        \resumeItem{Designed a strategy to transition from a monolithic architecture to modular components using Domain-Driven Design (DDD), helping spread the architecture across the engineering organization during a period of rapid hiring.}
+        \resumeItem{Designed and implemented a testing strategy that increased test coverage by over 95\%, significantly reducing bugs in production and improving overall system stability.}
+        \resumeItem{Implemented a new CI/CD pipeline with the team, taking deployments from a 3-day manual process to minutes of automated execution.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Staff augmentation positions}{2015 -- 2020}
+      {Various companies}{Spain}
+      \resumeItemListStart
+        \resumeItem{Apartum.com - Barcelona, Spain}
+        \resumeItem{Mobdala - Barcelona, Spain}
+        \resumeItem{Cl3ver - Barcelona, Spain}
+        \resumeItem{Huballin - Barcelona, Spain}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{AI \& LLM}{: AWS Bedrock, LangChain, MCP, tool-calling, Zod contracts, OpenAI API, Anthropic API} \\
+     \textbf{Languages \& Frameworks}{: TypeScript, JavaScript, SQL, Node.js, Next.js, React, Tailwind CSS} \\
+     \textbf{Data, Cloud \& DevOps}{: MySQL, PostgreSQL, MongoDB, Redis, AWS, Docker, GitHub Actions, Sentry, New Relic}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
